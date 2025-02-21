@@ -5,7 +5,7 @@ from db import Database
 
 db = Database("Employee.db")
 root = Tk()
-root.title("Employee Management System")
+root.title("Leave Management System")
 root.geometry("1920x1080+0+0")
 root.config(bg="#2c3e50")
 root.state("zoomed")
@@ -20,7 +20,7 @@ contact = StringVar()
 # Entries Frame
 entries_frame = Frame(root, bg="#535c68")
 entries_frame.pack(side=TOP, fill=X)
-title = Label(entries_frame, text="Employee Management System", font=("Calibri", 18, "bold"), bg="#535c68", fg="white")
+title = Label(entries_frame, text="Leave Management System", font=("Calibri", 18, "bold"), bg="#535c68", fg="white")
 title.grid(row=0, columnspan=2, padx=10, pady=20, sticky="w")
 
 lblName = Label(entries_frame, text="Name", font=("Calibri", 16), bg="#535c68", fg="white")
